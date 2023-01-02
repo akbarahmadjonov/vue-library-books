@@ -1,0 +1,72 @@
+.entrance h1 {
+    font-size: 56px;
+    width: 300px;
+    font-family: Raleway, sans-serif !important;
+    display: inline; 
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 4px solid #0085FF;
+    padding-bottom: 32px;
+}
+
+.entrance h2 {
+    font-family: Raleway, sans-serif !important;
+    color: #05101a;
+    letter-spacing: 1px;
+}
+
+.entrance {
+    text-align: center;
+}
+
+img {
+    width: 320px;
+}
+
+.photos-block {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos-block-hold {
+    margin: 10px;
+    line-height: 1.7;
+    padding: 15px;
+}
+
+.photos-block-hold:hover {
+    box-shadow: 0 8px 16px 0 rgba(110, 105, 105, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.photos-block-hold h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 19px;
+    color: #05101a;
+}
+
+.photos-block-hold p {
+    line-height: 1.4;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    margin-bottom: 27px;
+}
+
+.photos-block-hold .more-button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #0085FF;
+    color: #fff;
+    padding: 11px 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Raleway, sans-serif !important;
+    transition: all 0.2s ease;
+}
+
+.photos-block-hold .more-button:hover {
+    background-color: #056dce;
+}
